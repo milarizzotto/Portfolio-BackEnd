@@ -1,19 +1,20 @@
 package com.miPortfolio.PortfolioSB;
 
-
-import java.util.Arrays;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
+import java.util.Arrays;
+
 @SpringBootApplication
 public class PortfolioSbApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PortfolioSbApplication.class, args);
 	}
+        
         @Bean
         public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
