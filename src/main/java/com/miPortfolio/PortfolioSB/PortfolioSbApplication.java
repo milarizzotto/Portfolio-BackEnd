@@ -19,7 +19,7 @@ public class PortfolioSbApplication {
         public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowCredentials(true);
-        corsConfiguration.setAllowedOrigins(Arrays.asList("https://localhost:4200"));
+        corsConfiguration.setAllowedOrigins(Arrays.asList("https://portfoliofrontmcr.web.app"));
         corsConfiguration.setAllowedHeaders(Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type",
         "Accept", "Authorization", "Origin, Accept", "X-Request-With",
         "Access-Control-Request-Method", "Access-Control-Request-Headers"));
