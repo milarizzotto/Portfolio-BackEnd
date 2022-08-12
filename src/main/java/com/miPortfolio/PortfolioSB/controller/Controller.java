@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin
 @RestController
-@RequestMapping ("/exp_educ")
+@RequestMapping ("/api/exp_educ")
+@CrossOrigin (origins = "http://localhost:4200")
 public class Controller{
     @Autowired
     private final iExp_EducServ exp_EducServ;
