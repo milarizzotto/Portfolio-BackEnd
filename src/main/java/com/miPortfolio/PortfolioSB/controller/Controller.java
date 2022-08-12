@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping ("/api/exp_educ")
-@CrossOrigin (origins = "http://localhost:4200")
+@CrossOrigin (origins = "https://portfoliofrontmcr.web.app")
 public class Controller{
     @Autowired
     private final iExp_EducServ exp_EducServ;
